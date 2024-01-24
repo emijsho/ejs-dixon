@@ -1,0 +1,165 @@
+body {
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  padding: 0 140px 0 140px;
+}
+
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 50px;
+}
+.button {
+  display: block;
+  color: black;
+  background: white;
+  border: 3px solid rgba(112, 132, 63, 0.4);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.text-center {
+  text-align: center;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(images/stock-garden.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
+}
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000000;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+}
+
+main h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.gardening {
+  background-color: white;
+  padding: 40px;
+}
+.maintenance {
+  background-color: rgba(112, 132, 63, 0.4);
+  color: black;
+  padding: 40px;
+}
+.gallery {
+  background-color: white;
+  padding: 40px;
+}
+.testimonials {
+  background-color: rgba(112, 132, 63, 0.4);
+  color: black;
+  padding: 40px;
+}
+footer {
+  background-color: white;
+  padding: 40px;
+}
+footer h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+footer a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #000000;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+}
+@media (max-width: 960px) {
+  header {
+    padding: 30px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
